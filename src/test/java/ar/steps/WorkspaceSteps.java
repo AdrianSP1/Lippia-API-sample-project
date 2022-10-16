@@ -8,7 +8,7 @@ import services.BaseService;
 
 public class WorkspaceSteps extends PageSteps {
 
-    @Given("Mi cuenta creada en clockify y mi X-Api-Key geneada")
+    @Given("Mi cuenta creada en clockify y mi X-Api-Key generada")
     public void miCuentaCreadaEnClockifyYMiXApiKeyGeneada() {
         BaseService.API_KEY.set("NDRmZWUwYzEtOTZhMS00NDk5LWJkZWItY2FiNmY1MjQ3NGNh");
     }

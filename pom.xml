@@ -44,7 +44,6 @@
                 <apiExample.runner>testng.xml</apiExample.runner>
                 <base.api.url>https://api.clockify.me/api/v1</base.api.url>
                 <api-key>YmM1MWE0M2EtMjVmYi00OTYxLWE3MzktMjhkM2RiNzFiNjlh</api-key>
-                <id-user>633f5899648048064054990d</id-user>
                 <work-space>633f5899648048064054990e</work-space>
                 <project-id>633f68a189bf9c24493f3e16</project-id>
 

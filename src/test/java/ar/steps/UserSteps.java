@@ -44,7 +44,7 @@ public class UserSteps extends PageSteps {
         Assert.assertEquals(Integer.parseInt(expStatusCode), actualStatusCode, "The status code are not equals");
     }
 
-    @And("^The proper '(.*)' '(.*)' returned in the response$")
+    @Then("^The proper '(.*)' '(.*)' returned in the response$")
     public void theProperIdReturnedInTheResponse(String property, String value) {
         if (!value.isEmpty()) {
             Data response = (Data) APIManager.getLastResponse().getResponse();
